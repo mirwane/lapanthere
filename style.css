@@ -477,7 +477,7 @@ nav .caret {
 .btn-d:hover,
 .btn-d:focus {
     color: #FFF;
-    background: rgba(0, 0, 0, .3);
+    background: #a42a42;
 }
 
 button {
@@ -526,8 +526,10 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: #555;
     box-shadow: none;
+    border-radius: 4px;
+    border: 2px solid;
 }
 
 .scrollToTop {
@@ -540,7 +542,9 @@ button {
     z-index: 500;
     transition: all .3s ease-in-out;
 }
-
+.fa-chevron-up  {
+    color: white;
+}
 .scrollToTop span {
     margin-top: 6px;
 }
@@ -667,13 +671,14 @@ h5,
 h6,
 p,
 label,
-.btn,
 a {
     font-family: "helvetica";
     font-weight: 400;
     color: #313030 !important;
 }
-
+.btn:hover {
+    background: #fcac1b !important;
+}
 .container {
     max-width: 1000px;
 }
@@ -781,11 +786,9 @@ h4 {
         margin-left: auto;
         margin-right: auto;
 }
- {
-    margin-bottom: 44px;
-    margin-top: 50px;
+.col-sm-6 {
+    width: 100%;
 }
-
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
@@ -809,7 +812,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #a42a42;
 }
 
 .tc-white {
